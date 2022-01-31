@@ -1,0 +1,41 @@
+/*---------- Classes que podem ser usadas em qualquer lugar ---------- */
+/*---------- Margens ---------- */
+.m-right-4{
+    margin-right: 4px;
+}
+
+.m-rigth-16{
+    margin-right: 16px;
+}
+
+.m-bottom-28{
+    margin-bottom: 28px;
+}
+
+.top-16{
+    margin-top: 16px;
+}
+
+.m-top-28{
+    margin-top: 28px;
+}
+
+/*---------- Padding ---------- */
+.pd-16{
+    padding: 0 16px;
+}
+
+/*---------- Background-color ---------- */
+.bg-ql-secondary{
+    background-color: var(--ql-secondary) !important;
+}
+
+.bg-ql-transparent{
+    background-color: transparent !important;
+}
+
+/*---------- Top ---------- */
+.top-20{
+    top: -20px;
+    background-color: transparent !important;
+}

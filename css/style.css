@@ -1,0 +1,246 @@
+/*---------- cores ---------- */
+html {
+  --ql-blue-primary: #191a50;
+  --ql-secondary: #d9d9d9;
+  --ql-secondary-transparent: rgba(217, 217, 217, 0.322);
+  --ql-grey-label: #172022;
+  --ql-grey-light: #e7e7e7;
+  --ql-white: #ffffff;
+  --ql-wpp-color: #46c756;
+
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: var(--secondary);
+}
+
+/*------- scroll bar ------- */
+/*------ barra de rolagem ------*/
+/*------ fundo que corre ------*/
+::-webkit-scrollbar-track {
+  background-color: var(--ql-grey-ligth);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*------ linha que desce ------*/
+::-webkit-scrollbar-thumb {
+  background: var(--ql-blue-primary);
+  border-radius: 15px;
+}
+
+/*---------- contato ---------- */
+.contato {
+  background-color: var(--ql-secondary);
+  color: var(--ql-blue-primary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px;
+  animation: fadeIn 2s ease;
+}
+
+/*---------- Navbar ---------- */
+#header {
+  width: 100%;
+  background-color: var(--ql-secondary-transparent);
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  color: var(--blue-primary);
+}
+
+#topMenu {
+  top: 0;
+  display: none;
+  width: 100%;
+  background-color: var(--ql-blue-primary);
+  position: fixed;
+  z-index: 2;
+  overflow: hidden;
+  color: var(--ql-white);
+}
+
+img.img {
+  width: 150px;
+}
+
+.animate-menu {
+  animation: fadeInRight 2s ease;
+}
+
+.animate-logo {
+  animation: fadeInLeft 2s ease;
+}
+
+/*---------- Banner ---------- */
+div.banner-transparent {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: fadeInUp 2s ease;
+  background-color: var(--ql-secondary-transparent);
+}
+
+div.banner-transparent div.content-banner,
+div.content-banner {
+  text-align: center;
+  color: var(--ql-blue-primary);
+}
+
+.button-banner {
+  margin-top: 20px;
+  width: 10rem;
+  border: none;
+  padding: 10px;
+  background-color: var(--ql-blue-primary);
+  color: var(--ql-grey-light);
+  border-radius: 8px;
+  transition: 800ms all;
+  animation: fadeIn 2s ease;
+}
+
+.button-banner:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+/*---------- Card ---------- */
+.ql-card {
+  width: 80%;
+  padding: 40px 20px;
+  border-radius: 10px !important;
+  background-color: var(--ql-blue-primary) !important;
+  color: var(--ql-white);
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2), 0px 9px 12px rgba(0, 0, 0, 0.14),
+    0px 3px 16px rgba(0, 0, 0, 0.12);
+  animation: fadeInUp 2s ease;
+  transition: 800ms all;
+}
+
+.ql-card img {
+  width: 30%;
+}
+
+.ql-card .content-image {
+  width: 100%;
+}
+
+.ql-card h5 {
+  text-align: center;
+}
+
+.ql-card:hover {
+  width: 85%;
+  box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.2),
+    0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12);
+}
+
+/*---------- Serviços ---------- */
+.ql-servicos {
+  height: 50vh;
+  background-image: url(../img/bg-services.svg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*---------- Saiba mais ---------- */
+.ql-about1 {
+  padding: 100px 0 0 0;
+  color: var(--ql-blue-primary);
+}
+
+.ql-about2 {
+  padding: 100px 0;
+  color: var(--ql-blue-primary);
+}
+
+.img-ql-about {
+  border-radius: 10px;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2), 0px 9px 12px rgba(0, 0, 0, 0.14),
+    0px 3px 16px rgba(0, 0, 0, 0.12);
+}
+
+.img-ql-about:hover {
+  animation: pulse 2s ease;
+}
+
+/*---------- Contato ---------- */
+.qb-contact {
+  height: 56vh;
+  background-color: var(--ql-blue-primary);
+  color: var(--ql-white);
+  text-align: center;
+}
+
+button.qlButton-Wpp {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  font-weight: 600;
+  background-color: var(--ql-wpp-color);
+  transition: 800ms all;
+}
+
+a button.qlButton-Wpp:hover,
+a button.qlButton-Wpp label:hover {
+  filter: brightness(1.2);
+}
+
+img.qb-icon-button {
+  width: 28px;
+}
+
+/*---------- Maps ---------- */
+.ql-maps {
+  height: 50vh;
+}
+
+/*---------- Footer ---------- */
+.ql-footer {
+  padding: 60px 0;
+  background-color: var(--ql-secondary);
+  color: var(--ql-blue-primary);
+}
+
+.ql-footer a {
+  text-decoration: none;
+  color: var(--ql-blue-primary);
+}
+
+.ql-button-ancora {
+  border-radius: 50%;
+  background-color: var(--ql-blue-primary);
+  color: var(--ql-white);
+  padding: 10px 16px;
+  border: none;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2), 0px 9px 12px rgba(0, 0, 0, 0.14),
+    0px 3px 16px rgba(0, 0, 0, 0.12);
+  transition: 800ms all;
+}
+
+.ql-button-ancora:hover {
+  animation: pulse 2s ease;
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+.ql-line {
+  height: 2px;
+  border-radius: 1px;
+  background-color: var(--ql-blue-primary);
+  border-radius: 10px;
+}
+
+.ql-copy {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
