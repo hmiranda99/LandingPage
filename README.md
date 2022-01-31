@@ -1,20 +1,18 @@
 # <div align="center">👷 Site informativo da construtora Queiroz & Lima</div>
 
+### <div align="center"> 💻 Este foi um trabalho como freelance solicitado pela construtora.</div>
 
-### 💻 Este foi um trabalho como freelance solicitado pela construtora.
-
-<br>
-
-📌 Objetivos:
+### 📌 Objetivos:
 - Elaborar uma página sobre a construtora;
 - Elaborar uma página sobre os serviços realizados pela construtora;
 - Hospedagem do site.
 
-### 📎 Link do site: <a href="https://www.queirozlima.com.br/">www.queirozlima.com.br</a>
+##
+### <div align="center">🏡 Link do site: <a href="https://www.queirozlima.com.br/">www.queirozlima.com.br</a></div>
 
 ##
-### 🚀 Skills
-<div>
+### <div align="center">🚀 Skills</div>
+<div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
